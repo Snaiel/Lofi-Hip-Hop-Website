@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo|Oxygen&display=swap');
+
+body {
+	overflow-x: hidden; 
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	color: white;
+	position: absolute;
+    left: 0;
+    top: 35%;
+	max-width: 700px;
+    width: 70vw;
+    margin-left: 20%;
+	font-size: 700%;
+	font-family: 'Baloo', cursive;
+}
+
+h2 {
+	font-family: 'Baloo', cursive;
+	font-size: 400%;
+}
+
+h3 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 250%;
+}
+
+.p1 {
+	font-size: 180%;
+}
+
+.p2 {
+	font-size: 150%;
+}
+
+
+
+/* NAVIGATION */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  white-space: nowrap
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #818181;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.hamburger {
+	position: absolute;
+    right: 35px;
+	top: 15px;
+	font-size: 60px;
+	color: white;
+	cursor: pointer;
+}
+
+.hamburger:hover {
+  color: #818181;
+}
+
+
+
+
+
+
+
+header {
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+	background-color: #092834;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn {
+	background-color: #ff5500;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #D84800;
+	color: white;
+}
