@@ -130,12 +130,23 @@ footer {
   transform: translateY(-50%);
 }
 
-.btn {
+.btnorange {
 	background-color: #ff5500;
 	color: white;
 }
 
-.btn:hover {
+.btnorange:hover {
 	background-color: #D84800;
 	color: white;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+	width: 50%;
+	height: 50%;
+	margin: auto;
 }
